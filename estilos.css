@@ -1,0 +1,151 @@
+﻿*{
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+}
+h1{
+    color:white;
+    font-size: 70px;
+    padding: 0 120px;
+}
+
+.padre {
+    display: flex;
+    height: 370px;
+    margin: 0 0 39px 0;
+}
+
+.imgperfil {
+    width: 500px;
+}
+.columna {
+    padding: 15px 150px 0px 0px;
+}
+
+.footer {
+    margin: 70px 0px 10px 0px;
+    height: 600px;
+    color: red;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url("imagenes/fondo.gif");
+    padding: 90px 20px 0;
+}
+
+.header {
+    background-image: url("imagenes/Banner.jpg");
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-menu {
+    display: flex;
+    margin-left: 20px;
+    list-style:none;
+}
+
+.nav-menu-item {
+    
+}
+
+.nav-menu-link {
+    font-size: 18px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    width: max-content;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.sobremi {
+    text-align: center;
+    
+    height: 499px;
+    background-color: red;
+    text-transform: uppercase;
+}
+.sobremi-title{
+    font-family: "Copperplate", fantasy;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 30px 0px 10px 0px;
+}
+
+.proyecto-10mil-title {
+    
+}
+.proyecto-10mil {
+    display: flex;
+    justify-content: space-between;
+    height: 468px;
+}
+.proyecto-torneo {
+    display: flex;
+    justify-content: space-between;
+    height: 498px;
+    padding: 30px 0px 10px 0px;
+}
+.proyecto-app {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    padding: 30px 0px 10px 0px;
+}
+.proyectos {
+    margin: 30px 0px 10px 0px;
+    height: 1458px;
+}
+.linea-proyecto {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.imagenesproyecto{
+    margin-top:40px;
+}
+.parrafo-sobremi{
+    line-height: 2;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-family: "Copperplate", fantasy;
+    padding: 40px 50px;
+}
+.footer {
+    margin: 30px 0px 10px 0px;
+    height: 200px;
+    text-align: center;
+}
+.iconos{
+    padding: 10px 10px;
+}
+.contaco-iconos{
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 30px 0px 30px 0px;
+}
+.button-mail{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+.repositorio{
+    padding: 20px;
+}
