@@ -8,6 +8,9 @@ h1{
     font-size: 70px;
     padding: 0 120px;
 }
+h2{
+    font-size: 40px;
+}
 
 .padre {
     display: flex;
@@ -20,6 +23,10 @@ h1{
 }
 .columna {
     padding: 15px 150px 0px 0px;
+    
+}
+.title-principal{
+   
 }
 
 .footer {
@@ -49,7 +56,6 @@ body {
 }
 
 .nav-menu-item {
-    
 }
 
 .nav-menu-link {
@@ -74,26 +80,31 @@ body {
 }
 .sobremi {
     text-align: center;
-    
+    font-size: 40px;    
     height: 499px;
-    background-color: red;
+    background-image: url("imagenes/sobremi.jpg");
     text-transform: uppercase;
 }
 .sobremi-title{
     font-family: "Copperplate", fantasy;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 30px 0px 10px 0px;
-}
-
-.proyecto-10mil-title {
     
+    padding: 30px 0px 10px 0px;
+    text-shadow: 2px 2px 5px black;
 }
 .proyecto-10mil {
     display: flex;
     justify-content: space-between;
     height: 468px;
+}
+.proyecto-title {
+    text-align: center;
+}
+.proyecto-parrafo{
+    padding: 15px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
 }
 .proyecto-torneo {
     display: flex;
@@ -127,11 +138,16 @@ body {
     word-spacing: 10px;
     font-family: "Copperplate", fantasy;
     padding: 40px 50px;
+    text-shadow: 2px 2px 5px black;
 }
 .footer {
-    margin: 30px 0px 10px 0px;
+    background-color:RGB(48, 43, 43) ;
+    margin: 0px 0px 0px 0px;
     height: 200px;
     text-align: center;
+}
+.contacto-title{
+    padding: 30px 0px 10px 0px;
 }
 .iconos{
     padding: 10px 10px;
@@ -139,13 +155,23 @@ body {
 .contaco-iconos{
     align-items:flex-end;
     justify-content: space-between;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 0px 0px;
 }
 .button-mail{
     background-color: transparent;
     border: none;
     font-size: 16px;
 }
-.repositorio{
-    padding: 20px;
+
+.p-10mil{
+    text-align: left;
+    padding:200px 0 0 0;
+}
+.p-torneo{
+    text-align: left;
+    padding:100px 0 0 0;
+}
+.p-app{
+    text-align: left;
+    padding:10px 0 0 0;
 }
